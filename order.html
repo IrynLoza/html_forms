@@ -43,18 +43,22 @@
                 <option value="honeydew">Honeydew</option>
             </select>
         </form>
-        <form>
-            When should we deliver?
+        <fieldset>
+            <legend>When should we deliver?</legend>
 
-            <input type="radio" name="time" value="am">
-            <label>Morning</label>
-
-            <input type="radio" name="time" value="pm">
-            <label>Evening</label>
-
-            <input type="radio" name="time" value="any">
-            <label>Any time</label>
-        </form>
+            <div>
+                <input type="radio" name="time" value="am">
+                <label>Morning</label>  
+            </div>
+            <div>
+                <input type="radio" name="time" value="pm">
+                <label>Evening</label>
+            </div>
+            <div>
+                <input type="radio" name="time" value="any">
+                <label>Any time</label>  
+            </div>
+        </fieldset>
         <form>
             <br><label>Enter your message:</label><br>
             <br><textarea name="message"></textarea>
